@@ -1,0 +1,46 @@
+# ASR | @sungml92
+
+Ancestral Sequence Reconstruction (ASR) is a step 4-b in the Tool for Bioinformatics Analysis of virus genome (TBA) pipeline. 
+
+This module deals with the .rst output from PAML-codeml software and effortlessly annotates your tree with all inferred substitutions along the phylogenetic nodes.
+
+## Installation
+
+python 3.7.3, FigTree v1.4.4 (for phylogenetic tree visualization, ggtree with geom_text is an alternative)
+
+## Dependencies
+
+re, itertools, Biopython, io, argparse, time
+
+## Usage
+
+python script/ASR.py -ir data/sample.rst -it data/sample.tre -m rooted -o out/sample.out.tre
+
+For more information,
+
+python ASP.py -h
+
+## Expected result 
+
+(only partial output displayed below)
+
+before:
+...B/Jamaica/1222/2017|2017.449:9.999999999992654E-7):0.003465000000000001)...
+after:
+...B/Jamaica/1222/2017|2017.449:0.00000):0.00347[&node-number=19,aa-sub=N14S-D144G-I195V-R513K]...
+
+## Warnings
+
+This will detect node -> tip substitutions, but will not save it on the tree
+
+Not tested in python 2
+
+Rounding error(s)
+
+## Contributing
+
+For changes, please open an issue first to discuss what you would like to change.
+
+## Acknowledgement
+
+EPI_ISL_28264, EPI_ISL_267473, EPI_ISL_341131, EPI_ISL_160012, EPI_ISL_161728, EPI_ISL_176843, EPI_ISL_404716, EPI_ISL_398658, EPI_ISL_281655, EPI_ISL_217729

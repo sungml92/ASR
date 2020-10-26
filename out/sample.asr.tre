@@ -1,0 +1,8 @@
+#NEXUS
+Begin Taxa;
+ Dimensions NTax=10;
+ TaxLabels B/Singapore/KK1479/2019|2019.501 B/Washington/02/2019|2019.049 B/Nevada/19/2019|2019.945 B/Colorado/06/2017|2017.151 B/Jamaica/1222/2017|2017.449 B/Texas/22/2016|2016.112 B/Vietnam/13V-B-1/2012|2012.893 B/New-York/1213/2009|2009.148 B/New-York/1318/2011|2011.255 B/Brisbane/60/2008|2008.590;
+End;
+Begin Trees;
+ Tree tree1=((((((((B/Singapore/KK1479/2019|2019.501:0.00057,B/Washington/02/2019|2019.049:0.00000):0.00000[&node-number=18],B/Nevada/19/2019|2019.945:0.00460):0.00578[&node-number=17,aa-sub=G148R-K151E],(B/Colorado/06/2017|2017.151:0.00000,B/Jamaica/1222/2017|2017.449:0.00000):0.00347[&node-number=19,aa-sub=N14S-D144G-I195V-R513K]):0.00055[&node-number=16],B/Texas/22/2016|2016.112:0.00057):0.00580[&node-number=15,aa-sub=I132V-N144D],B/Vietnam/13V-B-1/2012|2012.893:0.00402):0.00288[&node-number=14],B/New-York/1213/2009|2009.148:0.00287):0.00057[&node-number=13],B/New-York/1318/2011|2011.255:0.00517):0.00028[&node-number=12],B/Brisbane/60/2008|2008.590:0.00028):0.00000[&node-number=11];
+End;
